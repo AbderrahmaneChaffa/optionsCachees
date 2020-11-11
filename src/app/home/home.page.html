@@ -1,14 +1,55 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <!--ion-toolbar>
     <ion-title>
       Options Cachées 
     </ion-title>
-  </ion-toolbar>
+  </ion-toolbar-->
 </ion-header>
 
-<ion-content [fullscreen]="true">
- <ion-title>
-      Options Cachées 
-    </ion-title>
- 
+<ion-content [fullscreen]="true" style="--background:#8a8a8d">
+  <br/>
+  <h1 class="title-home">CODAGES VAGCOM</h1>
+  <br/>
+  <br/>
+  <br/>
+  <ion-grid class="a">
+    
+    <ion-row>
+
+      <ion-col  offset-4 (click)="onClick()" >
+        <ion-card style="--background:#a1a1a5">
+        <ion-img  src="assets/logos/volkswagen.png"  ></ion-img>
+        </ion-card>
+      </ion-col>
+
+      <ion-col >
+        <ion-card style="--background:#a1a1a5">
+        <ion-img src="assets/logos/audi.png"  ></ion-img>
+      </ion-card>
+      </ion-col>
+    </ion-row>
+    <br/>
+
+    <ion-row>
+      <ion-col>
+        <ion-card  style="--background:#a1a1a5">
+        <ion-img src="assets/logos/seat.png"  ></ion-img>
+        
+      </ion-card>
+      </ion-col>
+      <ion-col offset-4>
+        <ion-card style="--background:#a1a1a5">
+          <ion-img src="assets/logos/skoda.png"  ></ion-img>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    </ion-grid>
+
+   
+   
 </ion-content>
+ <ion-footer style="--background:#8a8a8d">
+      
+        <p>© 2020 Codages vagcom by Abderrahmane chaffa</p>
+      
+    </ion-footer>
