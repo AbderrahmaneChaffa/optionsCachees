@@ -16,14 +16,14 @@
     
     <ion-row>
 
-      <ion-col  offset-4 (click)="onClick()" >
-        <ion-card style="--background:#a1a1a5">
+      <ion-col  offset-4 >
+        <ion-card style="--background:#a1a1a5" (click)="volkslists()" >
         <ion-img  src="assets/logos/volkswagen.png"  ></ion-img>
         </ion-card>
       </ion-col>
 
       <ion-col >
-        <ion-card style="--background:#a1a1a5">
+        <ion-card style="--background:#a1a1a5" (click)="audilists()">
         <ion-img src="assets/logos/audi.png"  ></ion-img>
       </ion-card>
       </ion-col>
@@ -31,14 +31,14 @@
     <br/>
 
     <ion-row>
-      <ion-col>
-        <ion-card  style="--background:#a1a1a5">
+      <ion-col >
+        <ion-card  style="--background:#a1a1a5" (click)="seatlists()">
         <ion-img src="assets/logos/seat.png"  ></ion-img>
         
       </ion-card>
       </ion-col>
       <ion-col offset-4>
-        <ion-card style="--background:#a1a1a5">
+        <ion-card style="--background:#a1a1a5" (click)="skodalists()">
           <ion-img src="assets/logos/skoda.png"  ></ion-img>
         </ion-card>
       </ion-col>
