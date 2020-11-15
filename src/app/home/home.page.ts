@@ -18,121 +18,123 @@ export class HomePage {
         text: 'AMAROK (2H)',
         
         handler: () => {
-          console.log('Delete clicked');
+          this.optionsAmarok_2h();
         }
       }, {
-        text: 'CADDY(2K)',
+        text: 'CADDY (2K)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsCaddy_2k();
         }
       }, {
-        text: 'FOX(5Z)',
+        text: 'FOX (5Z)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsFox_5z();
         }
       }, {
         text: 'GOLF 4 (1J)',
         
         handler: () => {
-          console.log('Play clicked');
+          this.optionsGolf4_1j();
         }
       }, {
         text: 'GOLF 5 (1K)',
         
         handler: () => {
-          console.log('Favorite clicked');
+          this.optionsGolf5_1k();
         }
       }, {
-        text: 'GOLF 6(5K)',
+        text: 'GOLF 6 (5K)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsGolf6_5k();
+          
+          
         }
       }, {
-        text: 'GOLF 7(5G)',
+        text: 'GOLF 7 (5G)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsGolf7_5g();
         }
       }, {
         text: 'PASSAT (3C)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsPassat_3c();
         }
       }, {
         text: 'PASSAT (3B)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsPassat_3b();
         }
       }, {
         text: 'PASSAT (3G)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsPassat_3g();
         }
       }, {
         text: 'POLO 3 (6N)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsPolo3_6n();
         }
       }, {
         text: 'POLO 4 (9N)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsPolo4_9n();
         }
       }, {
         text: 'POLO 5 (6R)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsPolo5_6r();
         }
       }, {
         text: 'TIGUAN (5N)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsTiguan_5n();
         }
       }, {
         text: 'TOUAREG (7L)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsTouareg_7l();
         }
       }, {
         text: 'TOUAREG (7P)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsTouareg_7p();
         }
       }, {
         text: 'TOUAREG (1T1)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsTouareg_1t1();
         }
       }, {
         text: 'TOUAREG (1T2)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsTouareg_1t2();
         }
       }, {
         text: 'TOUAREG (1T3)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsTouareg_1t3();
         }
       }, {
         text: 'TOURAN (2T)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsTouran_2t();
         }
       }, {
         text: 'Cancel',
@@ -148,126 +150,126 @@ export class HomePage {
   async audilists() {
     const actionSheet = await this.actionSheetController.create({
       cssClass: 'action-sheets',
-      header: 'Volkswagen Cars List',
+      header: 'Audi Cars List',
       buttons: [{
-        text: 'AMAROK (2H)',
+        text: 'A1 (8X)',
         
         handler: () => {
-          console.log('Delete clicked');
+          this.optionsA1_8x();
         }
       }, {
-        text: 'CADDY(2K)',
+        text: 'A3 (8L)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsA3_8l();
         }
       }, {
-        text: 'FOX(5Z)',
+        text: 'A3 (8P)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsA3_8p();
         }
       }, {
-        text: 'GOLF 4 (1J)',
+        text: 'A3 (8V)',
         
         handler: () => {
-          console.log('Play clicked');
+          this.optionsA3_8v();
         }
       }, {
-        text: 'GOLF 5 (1K)',
+        text: 'A4 (B5)',
         
         handler: () => {
-          console.log('Favorite clicked');
+          this.optionsA4_b5();
         }
       }, {
-        text: 'GOLF 6(5K)',
+        text: 'A4 (B6)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsA4_b6();
         }
       }, {
-        text: 'GOLF 7(5G)',
+        text: 'A4 (B7)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsA4_b7();
         }
       }, {
-        text: 'PASSAT (3C)',
+        text: 'A4 (B8)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsA4_b8();
         }
       }, {
-        text: 'PASSAT (3B)',
+        text: 'A5 (8T)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsA5_8t();
         }
       }, {
-        text: 'PASSAT (3G)',
+        text: 'A6 (6F)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsA6_6f();
         }
       }, {
-        text: 'POLO 3 (6N)',
+        text: 'A6 (4G)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsA6_4g();
         }
       }, {
-        text: 'POLO 4 (9N)',
+        text: 'A8 (4E)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsA8_4e();
         }
       }, {
-        text: 'POLO 5 (6R)',
+        text: 'A8 (4H)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsA8_4h();
         }
       }, {
-        text: 'TIGUAN (5N)',
+        text: 'Q3 (8U)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsQ3_8u();
         }
       }, {
-        text: 'TOUAREG (7L)',
+        text: 'Q5 (4L)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsQ5_4l();
         }
       }, {
-        text: 'TOUAREG (7P)',
+        text: 'Q7 (7M)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsQ7_7m();
         }
       }, {
-        text: 'TOUAREG (1T1)',
+        text: 'TT (8N)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsTt_8n();
         }
       }, {
-        text: 'TOUAREG (1T2)',
+        text: 'TT (8J)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsTt_8j();
         }
       }, {
-        text: 'TOUAREG (1T3)',
+        text: 'TT (8S)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsTt_8s();
         }
       }, {
-        text: 'TOURAN (2T)',
+        text: 'R8 (42)',
         
         handler: () => {
-          console.log('Share clicked');
+          this.optionsR8_42();
         }
       }, {
         text: 'Cancel',
@@ -283,123 +285,81 @@ export class HomePage {
   async skodalists() {
     const actionSheet = await this.actionSheetController.create({
       cssClass: 'action-sheets',
-      header: 'Volkswagen Cars List',
+      header: 'Skoda Cars List',
       buttons: [{
-        text: 'AMAROK (2H)',
+        text: 'CITIGO (AA)',
         
         handler: () => {
           console.log('Delete clicked');
         }
       }, {
-        text: 'CADDY(2K)',
+        text: 'FABIA (6Y)',
         
         handler: () => {
           console.log('Share clicked');
         }
       }, {
-        text: 'FOX(5Z)',
+        text: 'FABIA (5J)',
         
         handler: () => {
           console.log('Share clicked');
         }
       }, {
-        text: 'GOLF 4 (1J)',
+        text: 'FABIA (NJ)',
         
         handler: () => {
           console.log('Play clicked');
         }
       }, {
-        text: 'GOLF 5 (1K)',
+        text: 'OCTAVIA (1U)',
         
         handler: () => {
           console.log('Favorite clicked');
         }
       }, {
-        text: 'GOLF 6(5K)',
+        text: 'OCTAVIA 2 (1Z)',
         
         handler: () => {
           console.log('Share clicked');
         }
       }, {
-        text: 'GOLF 7(5G)',
+        text: 'OCTAVIA 3 (5E)',
         
         handler: () => {
           console.log('Share clicked');
         }
       }, {
-        text: 'PASSAT (3C)',
+        text: 'RAPID (NH)',
         
         handler: () => {
           console.log('Share clicked');
         }
       }, {
-        text: 'PASSAT (3B)',
+        text: 'ROOMSTER (5J)',
         
         handler: () => {
           console.log('Share clicked');
         }
       }, {
-        text: 'PASSAT (3G)',
+        text: 'SUPERB (3U)',
         
         handler: () => {
           console.log('Share clicked');
         }
       }, {
-        text: 'POLO 3 (6N)',
+        text: 'SUPERB (3T)',
         
         handler: () => {
           console.log('Share clicked');
         }
       }, {
-        text: 'POLO 4 (9N)',
+        text: 'SUPERB (3V)',
         
         handler: () => {
           console.log('Share clicked');
         }
       }, {
-        text: 'POLO 5 (6R)',
-        
-        handler: () => {
-          console.log('Share clicked');
-        }
-      }, {
-        text: 'TIGUAN (5N)',
-        
-        handler: () => {
-          console.log('Share clicked');
-        }
-      }, {
-        text: 'TOUAREG (7L)',
-        
-        handler: () => {
-          console.log('Share clicked');
-        }
-      }, {
-        text: 'TOUAREG (7P)',
-        
-        handler: () => {
-          console.log('Share clicked');
-        }
-      }, {
-        text: 'TOUAREG (1T1)',
-        
-        handler: () => {
-          console.log('Share clicked');
-        }
-      }, {
-        text: 'TOUAREG (1T2)',
-        
-        handler: () => {
-          console.log('Share clicked');
-        }
-      }, {
-        text: 'TOUAREG (1T3)',
-        
-        handler: () => {
-          console.log('Share clicked');
-        }
-      }, {
-        text: 'TOURAN (2T)',
+        text: 'YETI (5L)',
         
         handler: () => {
           console.log('Share clicked');
@@ -418,123 +378,75 @@ export class HomePage {
   async seatlists() {
     const actionSheet = await this.actionSheetController.create({
       cssClass: 'action-sheets',
-      header: 'Volkswagen Cars List',
+      header: 'Seat Cars List',
       buttons: [{
-        text: 'AMAROK (2H)',
+        text: 'ALHAMBRA (71)',
         
         handler: () => {
           console.log('Delete clicked');
         }
       }, {
-        text: 'CADDY(2K)',
+        text: 'ALTEA (5P)',
         
         handler: () => {
           console.log('Share clicked');
         }
       }, {
-        text: 'FOX(5Z)',
+        text: 'ATECA (5F)',
         
         handler: () => {
           console.log('Share clicked');
         }
       }, {
-        text: 'GOLF 4 (1J)',
+        text: 'EXEO (3R)',
         
         handler: () => {
           console.log('Play clicked');
         }
       }, {
-        text: 'GOLF 5 (1K)',
+        text: 'IBIZA (6L)',
         
         handler: () => {
           console.log('Favorite clicked');
         }
       }, {
-        text: 'GOLF 6(5K)',
+        text: 'IBIZA (6J)',
         
         handler: () => {
           console.log('Share clicked');
         }
       }, {
-        text: 'GOLF 7(5G)',
+        text: 'IBIZA (6P)',
         
         handler: () => {
           console.log('Share clicked');
         }
       }, {
-        text: 'PASSAT (3C)',
+        text: 'LEON (1P)',
         
         handler: () => {
           console.log('Share clicked');
         }
       }, {
-        text: 'PASSAT (3B)',
+        text: 'LEON (5F)',
         
         handler: () => {
           console.log('Share clicked');
         }
       }, {
-        text: 'PASSAT (3G)',
+        text: 'MII (AA)',
         
         handler: () => {
           console.log('Share clicked');
         }
       }, {
-        text: 'POLO 3 (6N)',
+        text: 'TOLEDO (5P)',
         
         handler: () => {
           console.log('Share clicked');
         }
       }, {
-        text: 'POLO 4 (9N)',
-        
-        handler: () => {
-          console.log('Share clicked');
-        }
-      }, {
-        text: 'POLO 5 (6R)',
-        
-        handler: () => {
-          console.log('Share clicked');
-        }
-      }, {
-        text: 'TIGUAN (5N)',
-        
-        handler: () => {
-          console.log('Share clicked');
-        }
-      }, {
-        text: 'TOUAREG (7L)',
-        
-        handler: () => {
-          console.log('Share clicked');
-        }
-      }, {
-        text: 'TOUAREG (7P)',
-        
-        handler: () => {
-          console.log('Share clicked');
-        }
-      }, {
-        text: 'TOUAREG (1T1)',
-        
-        handler: () => {
-          console.log('Share clicked');
-        }
-      }, {
-        text: 'TOUAREG (1T2)',
-        
-        handler: () => {
-          console.log('Share clicked');
-        }
-      }, {
-        text: 'TOUAREG (1T3)',
-        
-        handler: () => {
-          console.log('Share clicked');
-        }
-      }, {
-        text: 'TOURAN (2T)',
+        text: 'TOLEDO (NH)',
         
         handler: () => {
           console.log('Share clicked');
@@ -549,4 +461,3490 @@ export class HomePage {
     });
     await actionSheet.present();
   }
+
+//lists of options for each model of skoda
+
+//lists of options for each model of audi
+
+ async optionsA1_8x(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Options for A1 8x',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsA3_8l(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsA3_8p(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsA3_8v(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsA4_b5(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsA4_b6(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsA4_b7(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsA4_b8(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsA5_8t(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsA6_6f(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsA6_4g(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsA8_4e(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsA8_4h(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsQ3_8u(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsQ5_4l(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsQ7_7m(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsTt_8n(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsTt_8j(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsTt_8s(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsR8_42(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  //lists of options for each model of volkswagen
+  async optionsAmarok_2h(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Options for Amarok 2H',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsCaddy_2k(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsFox_5z(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsGolf4_1j(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsGolf5_1k(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsGolf6_5k(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsGolf7_5g(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsPassat_3c(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsPassat_3b(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsPassat_3g(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsPolo3_6n(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsPolo4_9n(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsPolo5_6r(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsTiguan_5n(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsTouareg_7l(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsTouareg_7p(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsTouareg_1t1(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsTouareg_1t2(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsTouareg_1t3(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
+  async optionsTouran_2t(){
+    const actionSheet = await this.actionSheetController.create({
+      cssClass: 'action-sheets',
+      header: 'Seat Cars List',
+      buttons: [{
+        text: 'ALHAMBRA (71)',
+        
+        handler: () => {
+          console.log('Delete clicked');
+        }
+      }, {
+        text: 'ALTEA (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'ATECA (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'EXEO (3R)',
+        
+        handler: () => {
+          console.log('Play clicked');
+        }
+      }, {
+        text: 'IBIZA (6L)',
+        
+        handler: () => {
+          console.log('Favorite clicked');
+        }
+      }, {
+        text: 'IBIZA (6J)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'IBIZA (6P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (1P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'LEON (5F)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'MII (AA)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (5P)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'TOLEDO (NH)',
+        
+        handler: () => {
+          console.log('Share clicked');
+        }
+      }, {
+        text: 'Cancel',
+        
+        handler: () => {
+          console.log('Cancel clicked');
+        }
+      }]
+    });
+    await actionSheet.present();
+  }
+
 }
