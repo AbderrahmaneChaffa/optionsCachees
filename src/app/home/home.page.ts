@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { ActionSheetController } from '@ionic/angular';
 import { Storage } from '@ionic/storage';
 import {Router,ActivatedRoute} from '@angular/router';
+import { AngularFireDatabase } from '@angular/fire/database';
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -11,8 +12,14 @@ export class HomePage {
 
   constructor(public actionSheetController: ActionSheetController,
     private storage: Storage,
-    private router:Router,) {}
+    private router:Router,
+    public afDB: AngularFireDatabase) {}
 
+   /* add(){
+      this.afDB.list('users').push({
+        pseeudi:'abderrahman'
+      });
+    }*/
   async volkslists() {
     this.storage.set('mark','volkswagen');
 
@@ -26,7 +33,7 @@ export class HomePage {
         text: 'AMAROK (2H)',
         
         handler: () => {
-          this.storage.set('model','amarok_2h');
+          this.storage.set('model','amarok-2h');
          
           this.optionsAmarok_2h();
         }
@@ -34,35 +41,35 @@ export class HomePage {
         text: 'CADDY (2K)',
         
         handler: () => {
-          this.storage.set('model','caddy_2k');
+          this.storage.set('model','caddy-2k');
           this.optionsCaddy_2k();
         }
       }, {
         text: 'FOX (5Z)',
         
         handler: () => {
-          this.storage.set('model','fox_5z');
+          this.storage.set('model','fox-5z');
           this.optionsFox_5z();
         }
       }, {
         text: 'GOLF 4 (1J)',
         
         handler: () => {
-          this.storage.set('model','golf4_1j');
+          this.storage.set('model','golf4-1j');
           this.optionsGolf4_1j();
         }
       }, {
         text: 'GOLF 5 (1K)',
         
         handler: () => {
-          this.storage.set('model','golf5_1k');
+          this.storage.set('model','golf5-1k');
           this.optionsGolf5_1k();
         }
       }, {
         text: 'GOLF 6 (5K)',
         
         handler: () => {
-          this.storage.set('model','golf6_5k');
+          this.storage.set('model','golf6-5k');
           this.optionsGolf6_5k();
           
           
@@ -71,98 +78,98 @@ export class HomePage {
         text: 'GOLF 7 (5G)',
         
         handler: () => {
-          this.storage.set('model','golf7_5g');
+          this.storage.set('model','golf7-5g');
           this.optionsGolf7_5g();
         }
       }, {
         text: 'PASSAT (3C)',
         
         handler: () => {
-          this.storage.set('model','passat_3c');
+          this.storage.set('model','passat-3c');
           this.optionsPassat_3c();
         }
       }, {
         text: 'PASSAT (3B)',
         
         handler: () => {
-          this.storage.set('model','passat_3b');
+          this.storage.set('model','passat-3b');
           this.optionsPassat_3b();
         }
       }, {
         text: 'PASSAT (3G)',
         
         handler: () => {
-          this.storage.set('model','passat_3g');
+          this.storage.set('model','passat-3g');
           this.optionsPassat_3g();
         }
       }, {
         text: 'POLO 3 (6N)',
         
         handler: () => {
-          this.storage.set('model','polo3_6n');
+          this.storage.set('model','polo3-6n');
           this.optionsPolo3_6n();
         }
       }, {
         text: 'POLO 4 (9N)',
         
         handler: () => {
-          this.storage.set('model','polo4_9n');
+          this.storage.set('model','polo4-9n');
           this.optionsPolo4_9n();
         }
       }, {
         text: 'POLO 5 (6R)',
         
         handler: () => {
-          this.storage.set('model','polo5_6r');
+          this.storage.set('model','polo5-6r');
           this.optionsPolo5_6r();
         }
       }, {
         text: 'TIGUAN (5N)',
         
         handler: () => {
-          this.storage.set('model','tiguan_5n');
+          this.storage.set('model','tiguan-5n');
           this.optionsTiguan_5n();
         }
       }, {
         text: 'TOUAREG (7L)',
         
         handler: () => {
-          this.storage.set('model','touareg_7l');
+          this.storage.set('model','touareg-7l');
           this.optionsTouareg_7l();
         }
       }, {
         text: 'TOUAREG (7P)',
         
         handler: () => {
-          this.storage.set('model','touareg_7p');
+          this.storage.set('model','touareg-7p');
           this.optionsTouareg_7p();
         }
       }, {
         text: 'TOUAREG (1T1)',
         
         handler: () => {
-          this.storage.set('model','touareg_1t1');
+          this.storage.set('model','touareg-1t1');
           this.optionsTouareg_1t1();
         }
       }, {
         text: 'TOUAREG (1T2)',
         
         handler: () => {
-          this.storage.set('model','touareg_1t2');
+          this.storage.set('model','touareg-1t2');
           this.optionsTouareg_1t2();
         }
       }, {
         text: 'TOUAREG (1T3)',
         
         handler: () => {
-          this.storage.set('model','touareg_1t3');
+          this.storage.set('model','touareg-1t3');
           this.optionsTouareg_1t3();
         }
       }, {
         text: 'TOURAN (2T)',
         
         handler: () => {
-          this.storage.set('model','touran_2t');
+          this.storage.set('model','touran-2t');
           this.optionsTouran_2t();
         }
       }, {

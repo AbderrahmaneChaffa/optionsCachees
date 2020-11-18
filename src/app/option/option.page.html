@@ -9,5 +9,26 @@
 </ion-header>
 
 <ion-content  style="--background:#ededf1">
+  <p *ngFor="let image of images">{{ image.text }}</p>
+  <ion-text color="danger"> <p *ngFor="let image of images">{{ image.rout }}</p></ion-text>
+  <ion-text color="warning"><p *ngFor="let image of images">{{ image.octet }}</p>
+  <p *ngFor="let image of images">{{ image.bit}}</p></ion-text>
+  
+  <!--ion-card *ngFor="let image of images">
+    <ion-img [src]="image.url"></ion-img>
+    <ion-card-header>
+      <ion-card-subtitle>{{ image.bit }}</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card-->
 
+  <ion-slides [options]="slierOpts" zoom>
+    <ion-slide *ngFor="let image of images">
+      <div class="swiper-zoom-container">
+        <img [src]="image.url" >
+      </div>
+      
+    </ion-slide>
+    
+  </ion-slides>
+  
 </ion-content>
