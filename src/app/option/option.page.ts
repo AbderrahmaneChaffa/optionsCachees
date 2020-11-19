@@ -34,12 +34,12 @@ console.log(this.urljdid);
   this.storage.get('model').then((model) => {
     this.model = model;
     this.urljdid+=model+'/'
-    this.getImagesDatabase(this.urljdid);
+    
 });
 this.storage.get('option').then((option) => {
   this.option = option;
-  /*this.urljdid+=option;
-  console.log(this.urljdid)*/
+  this.urljdid+=option+'/';
+  console.log(this.urljdid);this.getImagesDatabase(this.urljdid);
   
 });
 
@@ -64,13 +64,16 @@ this.getImagesStorage(image);
   
   getImagesStorage(image:  any) {
     // pour récupérer l'URL des images
+    
+
+
 const imgRef = image.payload.exportVal().refimg;
     this.afSG.ref(imgRef).getDownloadURL().subscribe(imgUrl => {
       console.log(imgUrl);
       this.images.push({
         octet :image.payload.exportVal().octet,
         bit :image.payload.exportVal().bit,
-        rout :image.payload.exportVal().rout,
+        root :image.payload.exportVal().root,
         text :image.payload.exportVal().text,
         url :imgUrl
       })

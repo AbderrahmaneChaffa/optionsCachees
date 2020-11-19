@@ -2261,6 +2261,22 @@ export class HomePage {
           this.storage.set('texttoolbar','Coming/Leaving Home avec Xénon');
           this.router.navigate(['/option']);
         }
+      },{
+        text: 'Tear Wiping',
+        
+        handler: () => {
+          this.storage.set('option','amarok-2h-op2');
+          this.storage.set('texttoolbar','Tear Wiping');
+          this.router.navigate(['/option']);
+        }
+      },{
+        text: 'Activer le bluetooth audio (A2DP)',
+        
+        handler: () => {
+          this.storage.set('option','amarok-2h-op3');
+          this.storage.set('texttoolbar','Activer le bluetooth audio (A2DP)');
+          this.router.navigate(['/option']);
+        }
       }, {
         text: 'Cancel',
         
